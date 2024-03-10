@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041baf0c-ffbd-4404-8283-ad5a1c3752c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +13,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Javier1609"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="07252554-6dde-4c86-8027-5b72922749ea" />
+        <option name="url" value="https://github.com/Javier1609/Zoologico.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dJNqSn9XWtTfs7FTdX5PScrCYy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,15 +48,114 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.animales.executor": "Run",
+    "JUnit.animales.setEdad.executor": "Run",
+    "JUnit.animales.setNombre.executor": "Run",
+    "JUnit.animales_acuaticos.executor": "Run",
+    "JUnit.animales_aviario.executor": "Run",
+    "JUnit.animales_terrestres.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/PC/Documents/intel j/Zoologico/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="animales" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.animales_aviario">
+    <configuration name="animales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zoologico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="animales" />
+      <option name="MAIN_CLASS_NAME" value="animales.animales" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="animales_acuaticos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zoologico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="animales" />
+      <option name="MAIN_CLASS_NAME" value="animales.animales_acuaticos" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="animales_aviario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zoologico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="animales" />
+      <option name="MAIN_CLASS_NAME" value="animales.animales_aviario" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="animales.setEdad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zoologico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="animales" />
+      <option name="MAIN_CLASS_NAME" value="animales.animales" />
+      <option name="METHOD_NAME" value="setEdad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="animales_terrestres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zoologico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="animales" />
+      <option name="MAIN_CLASS_NAME" value="animales.animales_terrestres" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.animales_aviario" />
+        <item itemvalue="JUnit.animales_terrestres" />
+        <item itemvalue="JUnit.animales_acuaticos" />
+        <item itemvalue="JUnit.animales" />
+        <item itemvalue="JUnit.animales.setEdad" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
