@@ -8,14 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041baf0c-ffbd-4404-8283-ad5a1c3752c7" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/main/java/habitats/Acuatico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/habitats/Habitat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/habitats/terrestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seguridad/Seguridad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zoologico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mantenimiento/Mantenimiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursos/Recursos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitantes/Interes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitantes/InteresAves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitantes/InteresMamiferos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitantes/InteresNinos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitantes/Visitante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitantes/generadorDeTours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitantes/generador_inf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitantes/kiosko.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animales/animales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animales/animales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animales/animales_acuaticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animales/animales_acuaticos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animales/animales_aviario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animales/animales_aviario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animales/animales_terrestres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animales/animales_terrestres.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +96,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="recursos" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
     </key>
@@ -205,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709722412943</updated>
       <workItem from="1709722414013" duration="1000" />
-      <workItem from="1710235816594" duration="10888000" />
+      <workItem from="1710235816594" duration="18372000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -215,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710072599875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <option name="closed" value="true" />
+      <created>1710261484981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710261484981</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
