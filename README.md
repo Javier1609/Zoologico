@@ -1,1 +1,1 @@
-https://github.com/Javier1609/Zoologico
+https://github.com/Javier1609/Zoologico.git
