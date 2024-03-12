@@ -18,34 +18,35 @@ public class animales_acuaticos {
         public boolean isAletas() {
             return aletas;
         }
-        @Test
-        public void setAletas() {
+
+        public void setAletas(boolean aletas) {
             this.aletas = aletas;
         }
 
         public boolean isBranquias() {
             return branquias;
         }
-        @Test
-        public void setBranquias() {
+
+        public void setBranquias( boolean branquias) {
             this.branquias = branquias;
         }
 
         public boolean isEscamas() {
             return escamas;
         }
-          @Test
-        public void setEscamas() {
+
+        public void setEscamas(boolean Escamas) {
             this.escamas = escamas;
         }
 
         public String getTipo_agua() {
             return tipo_agua;
         }
-       @Test
-        public void setTipo_agua() {
+
+        public void setTipo_agua(String tipo_agua) {
             this.tipo_agua = tipo_agua;
         }
 
     }
+
 }

@@ -1,12 +1,9 @@
 package animales;
 
-import org.junit.Test;
-import org.junit.experimental.runners.Enclosed;
-import org.junit.runner.RunWith;
 
-@RunWith(Enclosed.class)
+
 public class animales_terrestres {
-    public static class animales_terrestre extends animales{
+    public static abstract class animales_terrestre extends animales{
 
         boolean patas;
         boolean cola;
@@ -17,35 +14,35 @@ public class animales_terrestres {
         public boolean isPatas() {
             return patas;
         }
-          @Test
-        public void setPatas() {
+
+        public void setPatas(boolean patas) {
             this.patas = patas;
         }
 
         public boolean isCola() {
             return cola;
         }
-       @Test
-        public void setCola() {
+
+        public void setCola(boolean Cola) {
             this.cola = cola;
         }
 
         public boolean isPelaje() {
             return pelaje;
         }
-       @Test
-        public void setPelaje() {
+
+        public void setPelaje(boolean pelaje) {
             this.pelaje = pelaje;
         }
 
         public String getTipo_terrestre() {
             return tipo_terrestre;
         }
-       @Test
-        public void setTipo_terrestre() {
-            this.tipo_terrestre = tipo_terrestre;
+
+        public void setTipo_terrestre(boolean tipo_terrestre) {
+            this.tipo_terrestre = String.valueOf(tipo_terrestre);
         }
 
-
     }
+
 }

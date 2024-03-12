@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041baf0c-ffbd-4404-8283-ad5a1c3752c7" name="Changes" comment="">
+    <list default="true" id="041baf0c-ffbd-4404-8283-ad5a1c3752c7" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/main/java/habitats/Acuatico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/habitats/Habitat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/habitats/terrestre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animales/animales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animales/animales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animales/animales_acuaticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animales/animales_acuaticos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animales/animales_aviario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animales/animales_aviario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animales/animales_terrestres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animales/animales_terrestres.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit3 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -23,12 +33,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Javier1609"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Javier1609&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -36,6 +46,9 @@
         <option name="url" value="https://github.com/Javier1609/Zoologico.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -48,16 +61,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.Acuatico.executor": "Run",
+    "JUnit.Acuatico.setTemperatura.executor": "Run",
+    "JUnit.AcuaticoTest.executor": "Run",
+    "JUnit.Habitat$Aviario.executor": "Run",
+    "JUnit.Habitat$Terrestre.executor": "Run",
+    "JUnit.Habitat$Terrestre.setTipoSuelo.executor": "Run",
+    "JUnit.Habitat.executor": "Run",
     "JUnit.animales.executor": "Run",
     "JUnit.animales.setEdad.executor": "Run",
     "JUnit.animales.setNombre.executor": "Run",
     "JUnit.animales_acuaticos.executor": "Run",
     "JUnit.animales_aviario.executor": "Run",
     "JUnit.animales_terrestres.executor": "Run",
+    "Maven.Zoologico [-Dtest=NOT_RESOLVED...].executor": "Run",
+    "Maven.Zoologico [test,-DforkCount=0...].executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/PC/Documents/intel j/Zoologico/src/main/java/org/example/Main.java",
@@ -65,22 +91,75 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="animales" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="habitats" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.animales_aviario">
-    <configuration name="animales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AcuaticoTest">
+    <configuration name="Acuatico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Zoologico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="animales.*" />
+          <option name="PATTERN" value="habitats.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="animales" />
-      <option name="MAIN_CLASS_NAME" value="animales.animales" />
+      <option name="PACKAGE_NAME" value="habitats" />
+      <option name="MAIN_CLASS_NAME" value="habitats.Acuatico" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcuaticoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zoologico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="habitats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="habitats" />
+      <option name="MAIN_CLASS_NAME" value="habitats.AcuaticoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Acuatico.setTemperatura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zoologico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="habitats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="habitats" />
+      <option name="MAIN_CLASS_NAME" value="habitats.Acuatico" />
+      <option name="METHOD_NAME" value="setTemperatura" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Habitat$Terrestre.setTipoSuelo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zoologico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="habitats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="habitats.Habitat" />
+      <option name="MAIN_CLASS_NAME" value="habitats.Habitat$Terrestre" />
+      <option name="METHOD_NAME" value="setTipoSuelo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,59 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="animales_aviario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Zoologico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="animales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="animales" />
-      <option name="MAIN_CLASS_NAME" value="animales.animales_aviario" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="animales.setEdad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Zoologico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="animales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="animales" />
-      <option name="MAIN_CLASS_NAME" value="animales.animales" />
-      <option name="METHOD_NAME" value="setEdad" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="animales_terrestres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Zoologico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="animales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="animales" />
-      <option name="MAIN_CLASS_NAME" value="animales.animales_terrestres" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.animales_aviario" />
-        <item itemvalue="JUnit.animales_terrestres" />
+        <item itemvalue="JUnit.AcuaticoTest" />
+        <item itemvalue="JUnit.Acuatico" />
+        <item itemvalue="JUnit.Acuatico.setTemperatura" />
         <item itemvalue="JUnit.animales_acuaticos" />
-        <item itemvalue="JUnit.animales" />
-        <item itemvalue="JUnit.animales.setEdad" />
+        <item itemvalue="JUnit.Habitat$Terrestre.setTipoSuelo" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +205,25 @@
       <option name="presentableId" value="Default" />
       <updated>1709722412943</updated>
       <workItem from="1709722414013" duration="1000" />
+      <workItem from="1710235816594" duration="10888000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <option name="closed" value="true" />
+      <created>1710072599875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710072599875</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

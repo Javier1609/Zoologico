@@ -53,8 +53,8 @@ public class animales {
         return nombre;
     }
 
-    @Test
-    public void setNombre() {
+
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
@@ -63,8 +63,8 @@ public class animales {
         return especie;
     }
 
-      @Test
-    public void setEspecie() {
+
+    public void setEspecie(String especie) {
         this.especie = especie;
     }
 
@@ -73,8 +73,8 @@ public class animales {
         return raza;
     }
 
-     @Test
-    public void setRaza() {
+
+    public void setRaza(String Raza) {
         this.raza = raza;
     }
 
@@ -83,8 +83,8 @@ public class animales {
         return color;
     }
 
-     @Test
-    public void setColor() {
+
+    public void setColor(String color) {
         this.color = color;
     }
 
@@ -93,8 +93,8 @@ public class animales {
         return sexo;
     }
 
-     @Test
-    public void setSexo() {
+
+    public void setSexo(String sexo) {
         this.sexo = sexo;
     }
 
@@ -103,8 +103,8 @@ public class animales {
         return edad;
     }
 
-  @Test
-    public void setEdad() {
+
+    public void setEdad(String edad) {
         this.edad = edad;
     }
 
@@ -113,18 +113,17 @@ public class animales {
         return peso;
     }
 
-   @Test
-    public void setPeso() {
-        this.peso = peso;
-    }
 
+    public void setPeso(String peso) {
+        this.peso = String.valueOf(peso);
+    }
 
     public String getAltura() {
         return altura;
     }
 
-    @Test
-    public void setAltura() {
+
+    public void setAltura(String altura) {
         this.altura = altura;
     }
 
@@ -133,8 +132,8 @@ public class animales {
         return tipo;
     }
 
-   @Test
-    public void setTipo() {
+
+    public void setTipo(String Peso) {
         this.tipo = tipo;
     }
 
@@ -143,8 +142,8 @@ public class animales {
         return habitat;
     }
 
-    @Test
-    public void setHabitat() {
+
+    public void setHabitat(String habitat) {
         this.habitat = habitat;
     }
 
@@ -153,8 +152,8 @@ public class animales {
         return alimentacion;
     }
 
-    @Test
-    public void setAlimentacion() {
+
+    public void setAlimentacion(String Alimentacion) {
         this.alimentacion = alimentacion;
     }
 
@@ -163,8 +162,8 @@ public class animales {
         return reproduccion;
     }
 
-    @Test
-    public void setReproduccion() {
+
+    public void setReproduccion(String Reproduccion) {
         this.reproduccion = reproduccion;
     }
 
@@ -173,8 +172,8 @@ public class animales {
         return cuidados;
     }
 
-    @Test
-    public void setCuidados() {
+
+    public void setCuidados(String Cuidados) {
         this.cuidados = cuidados;
     }
 
@@ -183,8 +182,8 @@ public class animales {
         return enfermedades;
     }
 
-    @Test
-    public void setEnfermedades() {
+
+    public void setEnfermedades(String Enfermedades) {
         this.enfermedades = enfermedades;
     }
 
@@ -193,8 +192,8 @@ public class animales {
         return vacunas;
     }
 
-   @Test
-    public void setVacunas() {
+
+    public void setVacunas(String Vacunas) {
         this.vacunas = vacunas;
     }
 
@@ -203,24 +202,23 @@ public class animales {
         return id;
     }
 
-    @Test
-    public void setId() {
-        this.id = id;
+
+    public void setId(int id ) {this.id = id;
     }
 
     public boolean isSalud() {
         return salud;
     }
-    @Test
-    public void setSalud() {
+
+    public void setSalud(boolean salud) {
         this.salud = salud;
     }
 
     public boolean isComportamiento() {
         return comportamiento;
     }
-     @Test
-    public void setComportamiento() {
+
+    public void setComportamiento(boolean comportamiento) {
         this.comportamiento = comportamiento;
     }
 
